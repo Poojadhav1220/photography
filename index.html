@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Photoo</title>
+  <link rel="stylesheet" href="./index.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+
+<body>
+  <nav>
+    <div class="brand">
+      <img src="./index-img/Photoo.png" alt="Photoo Logo" class="logo" />
+      <span>Creation</span>
+    </div>
+
+    <div class="hamburger" onclick="document.querySelector('.nav-list').classList.toggle('show')">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    
+    <ul class="nav-list">
+      <li><a href="#main">Home</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#about-me">About Me</a></li>
+      <li><a href="#contact-us">Contact Us</a></li>
+    </ul>
+  </nav>
+  
+
+  <!-- <section id="hero-banner"> -->
+  <!-- <div class="hero-image"> -->
+  <!-- <div class="hero-text"> -->
+  <!-- <h1 class="intro-heading">Welcome To Our Studio!</h1> -->
+  <!-- <h1 class="main-heading">IT'S NICE TO MEET YOU</h1> -->
+  <!-- </div> -->
+  <!-- </div> -->
+  <!-- </section> -->
+
+  <!-- ✅ SLIDESHOW SECTION -->
+  <section id="main">
+    <div class="main-contentSlides">
+      <!-- JS will inject images here -->
+      <div class="text-content">
+        <h1 class="intro-heading">Capturing Life's Beautiful Moments</h1>
+        <p id="tagline">Professional Photography & Videography Services</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="services">
+    <div class="container">
+      <div class="section-title">
+        <h1>Exceptional Photography Services</h1>
+        <p class="service-description">Discover our range of professional photography and videography solutions tailored
+          to your needs</p>
+        <div class="line"></div>
+      </div>
+      <div class="services">
+        <div class="service">
+          <img src="./index-img/wedding.jpg" alt="wedding" loading="lazy">
+          <div class="overlay">WEDDING PHOTOGRAPHY</div>
+        </div>
+        <div class="service">
+          <img src="./index-img/family.jpg" alt="family" loading="lazy">
+          <div class="overlay">FAMILY SESSIONS</div>
+        </div>
+        <div class="service">
+          <img src="./index-img/events.jpg" alt="events" loading="lazy">
+          <div class="overlay">EVENTS COVERAGE</div>
+        </div>
+        <div class="service">
+          <img src="./index-img/automobile.jpg" alt="automobile" loading="lazy">
+          <div class="overlay">AUTOMOBILE PHOTOGRAPHY</div>
+        </div>
+        <div class="service">
+          <img src="./index-img/many-more1.jpg" alt="many-more" loading="lazy">
+          <div class="overlay">HOTELS & MANY MORE</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="video" class="video-section">
+    <div class="container">
+      <h1 class="section-heading">Our Videography</h1>
+      <p class="section-subtitle">Capturing moments in motion</p>
+      <div class="video-container">
+        <video src="./index-img/video1.mp4" muted autoplay loop></video>
+      </div>
+    </div>
+  </section>
+
+  <section id="gallery" class="gallery-section">
+    <div class="container">
+      <div class="section-title">
+        <div class="gallery-header">
+          <h1>Our Portfolio</h1>
+          <p class="gallery-description">A curated collection of our finest work in photography and videography</p>
+          <div class="line"></div>
+        </div>
+      </div>
+      <div class="masonry-grid">
+        <!-- Images -->
+        <img src="./index-img/gallary/1st.jpg" alt="gallery photo">
+        <img src="./index-img/gallary/2nd.jpg" alt="gallery photo">
+        <img src="./index-img/gallary/9th.jpg" alt="gallery photo">
+        <img src="./index-img/gallary/10th.jpg" alt="gallery photo">
+        <img src="./index-img/gallary/5th.jpg" alt="gallery photo">
+        <img src="./index-img/gallary/6th.jpg" alt="gallery photo">
+        <img src="./index-img/gallary/7th.jpg" alt="gallery photo">
+        <img src="./index-img/gallary/13th.jpg" alt="gallery photo">
+        <img src="./index-img/gallary/14th.jpg" alt="gallery photo">
+        <img src="./index-img/gallary/16th.jpg" alt="gallery photo"> 
+        <img src="./index-img/gallary/17th.jpg" alt="gallery photo">
+        <img src="./index-img/gallary/19th.jpg" alt="gallery photo">
+        <img src="./index-img/gallary/20th.jpg" alt="gallery photo">
+        <img src="./index-img/gallary/21th.jpg" alt="gallery photo">
+
+        <!-- Videos -->
+        <video src="./index-img/gallary/3rd.mp4" autoplay muted loop></video>
+        <video src="./index-img/gallary/4th.mp4" autoplay muted loop></video>
+        <video src="./index-img/gallary/8th.mp4" autoplay muted loop></video>
+        <video src="./index-img/gallary/11th.mp4" autoplay muted loop></video>
+        <video src="./index-img/gallary/12th.mp4" autoplay muted loop></video>
+        <video src="./index-img/gallary/15th.mp4" autoplay muted loop></video>
+        <video src="./index-img/gallary/18th.mp4" autoplay muted loop></video>
+        <video src="./index-img/gallary/22th.mp4" autoplay muted loop></video>
+      </div>
+    </div>
+  </section>
+
+
+
+  <section id="about-me">
+    <div class="container">
+      <div class="about-image">
+        <img src="./index-img/about-me1.jpg" alt="About Me Image">
+      </div>
+      <div class="about-content">
+        <h2>About the Artist</h2>
+        <p>I am a passionate photographer and videographer specializing in capturing memorable moments for weddings,
+          events, family sessions, hotels, and automobiles. With a keen eye for detail and a love for storytelling
+          through images and films, I strive to deliver beautiful and timeless work for every client.</p>
+        <div class="skills">
+          <div class="skill">
+            <span>Wedding Photography</span>
+            <div class="progress">
+              <div class="progress-bar" style="width: 95%;"></div>
+            </div>
+          </div>
+          <div class="skill">
+            <span>Event Coverage</span>
+            <div class="progress">
+              <div class="progress-bar" style="width: 90%;"></div>
+            </div>
+          </div>
+          <div class="skill">
+            <span>Family Sessions</span>
+            <div class="progress">
+              <div class="progress-bar" style="width: 85%;"></div>
+            </div>
+          </div>
+          <div class="skill">
+            <span>Hotel Photography</span>
+            <div class="progress">
+              <div class="progress-bar" style="width: 80%;"></div>
+            </div>
+          </div>
+          <div class="skill">
+            <span>Automobile Videos</span>
+            <div class="progress">
+              <div class="progress-bar" style="width: 75%;"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact-us">
+    <div class="container">
+      <div class="header1">
+        <p class="subtitle">Contacts</p>
+        <h2>How you can reach us</h2>
+      </div>
+      <div class="content">
+        <div class="form-container">
+          <form id="contactForm">
+            <input type="text" name="name" placeholder="Name" required />
+            <input type="email" name="email" placeholder="Email" required />
+            <textarea name="message" placeholder="Message" rows="6" required></textarea>
+            <button type="submit">Send</button>
+          </form>
+        </div>
+        <div class="info-container">
+          <div class="info-item">
+            <div class="icon">
+              <i class="fa-solid fa-phone fa-lg" style="color: #545252;"></i>
+            </div>
+            <div class="info-text">
+              <h6>Phone</h6>
+              <p>+123456789</p>
+            </div>
+          </div>
+          <div class="info-item">
+            <div class="icon">
+              <i class="fa-solid fa-envelope fa-lg" style="color: #545252;"></i>
+            </div>
+            <div class="info-text">
+              <h6>Email</h6>
+              <p>info@example.com</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <ul class="footer-links">
+        <li><a href="#main">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#gallery">Portfolio</a></li>
+        <li><a href="#about-me">About Me</a></li>
+        <li><a href="#contact-us">Contact</a></li>
+      </ul>
+      <img src="./index-img/Photoo.png" alt="Photoo Logo" class="footer-logo">
+      <span class="footer-brand">Photoo Creation</span>
+      <div class="footer-social-icons">
+        <a href="https://www.gmail.com/" target="_blank" >
+          <i class="fa-regular fa-envelope fa-xl" style="color: gray;"></i>
+        </a>
+        <a href="https://www.instagram.com/" target="_blank" >
+          <i class="fa-brands fa-instagram fa-xl" style="color: gray;"></i>
+        </a>
+        <a href="https://www.whatsapp.com/" target="_blank" >
+          <i class="fa-brands fa-whatsapp fa-xl" style="color: gray;" ></i>
+        </a>
+      </div>
+      <p class="copyright">&copy; 2025 Photoo Creation. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="./script.js"></script>
+
+</body>
+
+</html>
